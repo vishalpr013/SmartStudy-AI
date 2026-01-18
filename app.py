@@ -87,7 +87,7 @@ Now process the following user input accordingly:
         return f"API Error: {str(e)}"
 st.set_page_config(layout="wide")
 
-st.title("Gen AI Based Study Material Generator")
+st.title("SmartStudy-AI")
 
 # Create main layout
 left, right = st.columns([1, 1])
