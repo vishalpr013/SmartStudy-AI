@@ -171,7 +171,6 @@ The application will open in your default browser at `http://localhost:8501`
 ```
 SmartStudy-AI/
 ├── app.py                      # Main Streamlit application
-├── check_models.py             # Utility to check available Gemini models
 ├── requirements.txt            # Python dependencies
 ├── myenv/                      # Virtual environment (not in git)
 ├── .streamlit/
@@ -188,11 +187,6 @@ The app uses `gemini-flash-latest` model by default. To change the model, edit `
 
 ```python
 model = genai.GenerativeModel("models/gemini-1.5-pro-latest")
-```
-
-Check available models:
-```bash
-python check_models.py
 ```
 
 ### Customizing Study Material Format
